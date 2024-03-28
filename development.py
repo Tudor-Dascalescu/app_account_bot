@@ -14,11 +14,11 @@ options = Options()
 options.add_experimental_option("excludeSwitches", ["enable-logging"])
 
 print("Generating accounts")
-index = 6
+index = 0
 driver = webdriver.Chrome(options=options)
 driver.get("http://localhost:8080/#/public/login")
 sleep(6)
-while index < 9:
+while index < 6:
     sleep(2)
     driver.find_element(By.XPATH, '//*[@id="root"]/div[1]/div/div/div[2]/div/button[2]').click() #click on Log In with test identity
     sleep(1)

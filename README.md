@@ -15,3 +15,5 @@ Steps:
 6. Wait
 
 Keep in mind that this script does not save the created identities. You will not be able to access or export them
+
+:)
